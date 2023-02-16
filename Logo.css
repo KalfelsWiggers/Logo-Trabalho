@@ -32,11 +32,11 @@ body
 
 .circulo
 {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     position: absolute;
-    top: 290px;
-    background-color: rgb(230, 133, 40);
+    top: 295px;
+    background-color: rgb(56, 46, 10);
     z-index: 0;
     border-radius: 100px;
     opacity: 0;
