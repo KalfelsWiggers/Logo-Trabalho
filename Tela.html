@@ -7,22 +7,22 @@
     <title>Logo</title>
     <link rel="stylesheet" href="Logo.css">
 
-    <style>
-        .logo
-        {
-            position: absolute;
-            top: 0px;
-            left: 0px;
+    <style> 
+        div {
+          width: 100px;
+          height: 100px;
+          background: black;
+          position: relative;
+          animation-name: example;
+          animation-duration: 2s;  
+          animation-fill-mode: forwards;
         }
-
-        .nome
-        {
-            position: absolute;
-            rotate: 0deg;
-            top: 120px;
-            left: 450px;
+        
+        @keyframes example {
+          from {top: 0px;}
+          to {top: 200px; background-color: black;}
         }
-    </style>
+        </style>
 
 </head>
 <body>
@@ -30,8 +30,6 @@
     <div class="TelaInicial">
         <img src="Caixa.png" class="logo">
     </div>
-        
-    <img src="Nome.png" class="nome">
 
 </body>
 </html>
