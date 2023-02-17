@@ -32,18 +32,15 @@ body
 
 .circulo
 {
-    width: 140px;
-    height: 140px;
+    width: 300px;
+    height: 300px;
     position: absolute;
-    top: 295px;
-    background-color: rgb(99, 80, 12);
+    top: 260px;
     z-index: 0;
     border-radius: 100px;
     opacity: 0;
     animation: acender 1s forwards;
     animation-delay: 2s;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
 }
 
 @keyframes acender
