@@ -21,7 +21,7 @@ body {
 }
 
 .caixa {
-    width: 200px;
+    width: 25vh;
     animation: example 2s forwards;
 }
 
