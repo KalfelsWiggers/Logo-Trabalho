@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 
-.logo {
+.caixa {
     width: 200px;
     animation: example 2s forwards;
 }
@@ -33,7 +33,7 @@ body {
     100% {transform: translateY(17vh);opacity: 1;}
 }
 
-.circulo {
+.nome {
     width: 100%;
     height: 43vh;
     opacity: 0;
